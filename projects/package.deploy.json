@@ -1,0 +1,14 @@
+{
+  "name": "jade-daily-planner",
+  "version": "1.0.0",
+  "description": "Jade's Daily Planner - 飞书部署配置",
+  "scripts": {
+    "build:web": "node build-web.js",
+    "deploy:vercel": "vercel --prod",
+    "deploy:netlify": "netlify deploy --prod --dir=dist-web"
+  },
+  "devDependencies": {
+    "vercel": "^37.0.0",
+    "netlify-cli": "^17.0.0"
+  }
+}
